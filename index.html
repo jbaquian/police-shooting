@@ -22,13 +22,31 @@
    
   </head>
   <body>
+    <h1>Police Shootings</h1>
+    <table class = "table table-hover">
+      <tr>
+        <th></th>
+        <th>Hit</th>
+        <th>Killed</th>
+      </tr>
+      <tr id = "male">
+        <th>Male</th>
+      <td id ="maleHit"></td>
+      <td id = "maleKilled"></td>
+      </tr>
+      <tr id = "female">
+        <th>Female</th>
+        <td id = "femaleHit"></td>
+        <td id = "femaleKilled"></td>
+      </tr>
+    </table>
     <!-- You may want to put your title and additional informaiton here -->
-    <div class="container">
+    <div class="container" id="map">
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
       <div id="container"></div>
     </div>
     <script>
-      
+      drawMap()
       // This is where you should execute your drawMap function
       
     </script>
